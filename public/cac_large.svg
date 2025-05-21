@@ -1,41 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 493.19 421.44">
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 493.2 421.4">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
   <defs>
     <style>
-      .cls-1 {
-        font-family: PrincetonMontiOS-Italic, PrincetonMontiOS;
-        font-style: italic;
-      }
-
-      .cls-1, .cls-2 {
-        fill: #454b9f;
-      }
-
-      .cls-3 {
-        font-size: 120px;
-      }
-
-      .cls-2 {
-        font-family: PrincetonMontiDSOS-Regular, PrincetonMontiDSOS;
-      }
-
-      .cls-4 {
+      .st0 {
         fill: #454ca0;
         font-family: PrincetonMonti-Regular, PrincetonMonti;
       }
 
-      .cls-5 {
-        letter-spacing: -.02em;
+      .st0, .st1, .st2, .st3 {
+        isolation: isolate;
       }
 
-      .cls-6 {
-        letter-spacing: 0em;
+      .st0, .st2, .st3 {
+        font-size: 120px;
       }
 
-      .cls-7 {
-        letter-spacing: 0em;
+      .st2 {
+        font-family: PrincetonMontiDSOS-Regular, PrincetonMontiDSOS;
+      }
+
+      .st2, .st3 {
+        fill: #454b9f;
+      }
+
+      .st3 {
+        font-family: PrincetonMontiOS-Italic, PrincetonMontiOS;
+        font-style: italic;
       }
     </style>
   </defs>
-  <text class="cls-3" transform="translate(.12 102)"><tspan class="cls-4"><tspan x="0" y="0">Cr</tspan><tspan class="cls-6" x="133.08" y="0">a</tspan><tspan class="cls-7" x="189" y="0">v</tspan><tspan x="249.84" y="0">at</tspan></tspan><tspan class="cls-2"><tspan x="0" y="144">And</tspan></tspan><tspan class="cls-1"><tspan class="cls-5" x="0" y="288">C</tspan><tspan x="81.48" y="288">ompany</tspan></tspan></text>
+  <g class="st1">
+    <text class="st0" transform="translate(.1 102)"><tspan x="0" y="0">Cr</tspan></text>
+    <text class="st0" transform="translate(133.2 102)"><tspan x="0" y="0">a</tspan></text>
+    <text class="st0" transform="translate(189.1 102)"><tspan x="0" y="0">v</tspan></text>
+    <text class="st0" transform="translate(250 102)"><tspan x="0" y="0">at</tspan></text>
+    <text class="st2" transform="translate(.1 246)"><tspan x="0" y="0">And</tspan></text>
+    <text class="st3" transform="translate(.1 390)"><tspan x="0" y="0">C</tspan></text>
+    <text class="st3" transform="translate(81.6 390)"><tspan x="0" y="0">ompany</tspan></text>
+  </g>
 </svg>
