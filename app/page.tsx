@@ -38,7 +38,7 @@ export default function Home() {
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations"
+          href="https://hls.harvard.edu/bernard-koteen-office-of-public-interest-advising/about-opia/what-is-public-interest-law/public-interest-work-types/lobbying/#:~:text=A%20lobbyist%20is%20paid%20by,less%20frequently%2C%20to%20administrative%20agencies."
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -49,11 +49,11 @@ export default function Home() {
             width={16}
             height={16}
           />
-       A Massachussetts based S-Corproation
+       A Massachusetts Lobbyist Entity.
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="mailto:contact@cravatandcompany.com"
+          href="mailto:ross@cravatandcompany.org"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -64,7 +64,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          contact@cravatandcompany.com
+          ross@cravatandcompany.org
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
