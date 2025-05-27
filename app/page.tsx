@@ -53,7 +53,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-       A Massachusetts Lobbyist Entity.
+       A Massachusetts Firm.
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
@@ -98,7 +98,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Licensed to Lobby in Massachusetts
+          Gentleman and Lady Lobbyist
         </a>
       </footer>
     </div>
