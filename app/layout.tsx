@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Cravat & Co.",
-  description: "Contract Lobbyist",
+  description: "Scimus Cui Prodest... We Know Who Benefits",
 };
 
 export default function RootLayout({
