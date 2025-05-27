@@ -98,7 +98,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Gentleman and Lady Lobbyist
+          Lobbyesses & Lobbyists 
         </a>
       </footer>
     </div>
