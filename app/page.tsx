@@ -24,22 +24,23 @@ export default function Home() {
           src="/cac_large.svg"
           alt="Cravat and Company logo"
           width={250}
-          height={125}
+          height={150}
           priority
         />
         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <h1 className="mb-2 tracking-[-.01em]">
-            Lobbying and Public Affairs.
-          </h1>
           <h1 className="mb-2 tracking-[-.01em]">Scimus Cui Prodest</h1>
           <h1 className="mb-2 tracking-[-.01em]">We Know Who Benefits</h1>
         </ol>
+        
+        {/*paragraph of about us*/}
         <h1 className="mb-2 tracking-[-.01em]">Our firm is built on a simple belief: Lobbying is a civic virtue—when done with integrity, curiosity, and style. Whether we’re advising corporations, nonprofits, or Membership-Associations, we operate with the philosophy that democracy is not self-executing. Someone must make the case. We do.  </h1>
-
-
          <h1 className="mb-2 [-.01em]">‘We must first walk in our clients shoes so we can accurately represent them at all levels of government’ </h1>
+        
+         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
+         <h1 className="mb-2 tracking-[-.01em]">
+            Lobbying and Public Affairs.</h1>
+          </ol>
       </main>
-
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
@@ -83,7 +84,7 @@ export default function Home() {
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="_blank"
+          href="https://cravatandcompany.org/lobby"
           target="_blank"
           rel="noopener noreferrer"
         >
