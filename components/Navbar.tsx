@@ -12,10 +12,21 @@ export default function Navbar() {
         </a>
       </Link>
       <div className="flex space-x-8 text-sm font-medium tracking-wide">
-        <Link href="/about"><a className="hover:text-gray-400">About</a></Link>
+        <Link href="/the_firm"><a className="hover:text-gray-400">The Firm</a></Link>
+        <Link href="/our-philosophy"><a className="hover:text-gray-400">Our  Philosophy</a></Link>
         <Link href="/capabilities"><a className="hover:text-gray-400">Capabilities</a></Link>
-        <Link href="/products"><a className="hover:text-gray-400">Products</a></Link>
-        <Link href="/careers"><a className="hover:text-gray-400">Careers</a></Link>
+        <Link href="/The Buisness of Advocacy"><a className="hover:text-gray-400">The Buisness of Aodvocay</a></Link>
+        <Link href="/Clientele"><a className="hover:text-gray-400">Clientele</a></Link>
+        // the firm (home page)
+// our-philosophy (about us)
+// the buisness of adovocay (lobbying/services )
+//  Discretion & Clientele (Clients)
+// The  Lobbyesses & Lobbyists (Team)
+// Contact the Offices (Contact Page)
+// The Seal (Symbolism Page)
+// Positions & Papers (Thought Leadership / Library)
+//Induction (Careers / Apprenticeship) 
+// Ethics & Disclosure (Compliance Page)
       </div>
     </nav>
   );
