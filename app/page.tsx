@@ -21,10 +21,10 @@ export default function Home() {
       <main className="flex flex-col gap-[px] row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
-          src="/cac_large.svg"
+          src="/navcravatandco.png"
           alt="Cravat and Company logo"
-          width={250}
-          height={150}
+          width={300}
+          height={300}
           priority
         />
         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
