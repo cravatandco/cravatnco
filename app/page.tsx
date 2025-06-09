@@ -82,7 +82,7 @@ export default function Home() {
           />
           732-850-6998
         </a>
-        <a
+        {/*<a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="https://cravatandcompany.org/lobby"
           target="_blank"
@@ -96,7 +96,7 @@ export default function Home() {
             height={16}
           />
           Lobbyesses & Lobbyists 
-        </a>
+        </a>*/}
       </footer>
     </div>
   );
