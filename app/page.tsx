@@ -33,9 +33,12 @@ export default function Home() {
         </ol>
         
         {/*paragraph of about us*/}
-        <h1 className="mb-2 tracking-[-.01em]">Our firm is built on a simple belief: Lobbying is a civic virtue—when done with integrity, curiosity, and style. Whether we’re advising corporations, nonprofits, or Membership-Associations, we operate with the philosophy that democracy is not self-executing. Someone must make the case. We do.  ‘We must first walk in our clients shoes so we can accurately represent them at all levels of government.’</h1>
+        <h1 className="mb-2 tracking-[-.01em]">Our firm is built on a simple belief: Lobbying is a civic virtue—when done with integrity, curiosity, and style. Whether we’re advising corporations, nonprofits, or Membership-Associations, we operate with the philosophy that democracy is not self-executing. Someone must make the case. We do.  </h1>
+<h1 className="mb-2 tracking-[-.01em]">
+          ‘We must first walk in our clients shoes so we can accurately represent them at all levels of government.’</h1>
 
-         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
+
+         <ol className="list-inside list-decimal text-sm/12 text-center sm:text-center font-[family-name:var(--font-geist-mono)]">
          <h1 className="mb-2 tracking-[-.01em]">
            A Lobbying and Public Affairs Firm.</h1>
           </ol>
@@ -69,7 +72,7 @@ export default function Home() {
           ink@cravatandcompany.org
         </a>
         <a className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="tel:+17328506998"
+          href="https://about.bgov.com/insights/public-affairs-strategies/direct-lobbying-and-government-advocacy/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -79,7 +82,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          732-850-6998
+          We are Taking New Clients for New Jersey
         </a>
         {/*<a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
