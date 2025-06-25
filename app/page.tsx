@@ -72,7 +72,7 @@ export default function Home() {
           ink@cravatandcompany.org
         </a>
         <a className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://about.bgov.com/insights/public-affairs-strategies/direct-lobbying-and-government-advocacy/"
+          href="mailto:ink@cravatandcompany.org"
           target="_blank"
           rel="noopener noreferrer"
         >
