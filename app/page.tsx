@@ -22,27 +22,28 @@ export default function Home() {
         <Image
           className="dark:invert"
           src="/navcravatandco.png"
-          alt="Cravat and Company logo"
+          alt="Cravat and Company"
           width={300}
           height={300}
           priority
         />
         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <h1 className="mb-2 tracking-[-.01em]">Scimus Cui Prodest</h1>
-          <h1 className="mb-2 tracking-[-.01em]">We Know Who Benefits</h1>
+          <h1 className="mb-2 tracking-[-.01em]">Scimus Cui Prodest ~ We Know Who Benefits</h1>
+          <h1 className="mb-2 tracking-[-.01em]">The Firm:</h1>
         </ol>
         
         {/*paragraph of about us*/}
-        <h1 className="mb-2 tracking-[-.01em]">Our firm is built on a simple belief: Lobbying is a civic virtue—when done with integrity, curiosity, and style. Whether we’re advising corporations, nonprofits, or Membership-Associations, we operate with the philosophy that democracy is not self-executing. Someone must make the case. We do.  </h1>
+        <h1 className="mb-2 tracking-[-.01em]">Built on the simple belief: the moral good in the lobbying profession. Lobbying is a civic virtue—when done with integrity, curiosity, and formal style. Advising corporations, non-profits, or membership associations, we operate with the philosophy that democracy is not self-executing. Someone must make the case. We do.  </h1>
 <h1 className="mb-2 tracking-[-.01em]">
           ‘We must first walk in our clients shoes so we can accurately represent them at all levels of government.’</h1>
 
-
          <ol className="list-inside list-decimal text-sm/12 text-center sm:text-center font-[family-name:var(--font-geist-mono)]">
          <h1 className="mb-2 tracking-[-.01em]">
-           A Lobbying and Public Affairs Firm.</h1>
+           A government and public affairs firm.</h1>
           </ol>
       </main>
+
+      {/* VERY IMPORTANT this is the beginning of the footer for the company site. */}
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
@@ -55,7 +56,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-       A Massachusetts & New Jersey Firm.
+       CRAVAT AND COMPANY LLC
         </a>
         <a className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="mailto:ink@cravatandcompany.org"
@@ -69,10 +70,12 @@ export default function Home() {
             width={16}
             height={16}
           />
-          ink@cravatandcompany.org
+          Write to Us
         </a>
+
+        Social Links :
         <a className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="mailto:ink@cravatandcompany.org"
+          href="https://bsky.app/profile/cravatandcompany.bsky.social"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -82,11 +85,37 @@ export default function Home() {
             width={16}
             height={16}
           />
-          We are Taking New Clients for New Jersey
+          BlueSky
         </a>
-        {/*<a
+        <a className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+          href="https://github.com/cravatandco"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            aria-hidden src="/globe.svg"
+            alt="Globe icon"
+            width={16}
+            height={16}
+          />
+          Github
+        </a>
+        <a className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+          href="https://www.youtube.com/@CravatandCo"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            aria-hidden src="/globe.svg"
+            alt="Globe icon"
+            width={16}
+            height={16}
+          />
+          Youtube
+        </a>
+        <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://cravatandcompany.org/lobby"
+          href="https://www.linkedin.com/company/cravatandco"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -97,8 +126,22 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Lobbyesses & Lobbyists 
-        </a>*/}
+          Linkedin 
+        </a>
+
+        <a className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+          href="https://www.instagram.com/cravatandco?igsh=MXFvZzg0NnluZjcwNA%3D%3D&utm_source=qr"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <image 
+            aria-hidden
+            src="/globe.svg"
+            alt="Globe icon"
+            width={16}
+            height={16}/>
+          Instagram
+        </a>
       </footer>
     </div>
   );
