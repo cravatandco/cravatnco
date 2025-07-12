@@ -139,9 +139,11 @@ export default function Home() {
             src="/globe.svg"
             alt="Globe icon"
             width={16}
-            height={16}/>
+            height={16}
+          />
           Instagram
         </a>
+        
       </footer>
     </div>
   );
