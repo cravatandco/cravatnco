@@ -18,15 +18,13 @@ export default function Home() {
         <h1 className="mb-2 tracking-[-.01em]">Scimus Cui Prodest ~ We Know Who Benefits</h1>
         <h1 className="mb-2 tracking-[-.01em] font-bold">The Firm:</h1>
 
-        <p className="mb-2 tracking-[-.01em]">
-          Built on the simple belief: the moral good in the lobbying profession. Lobbying is a civic virtue—when done with integrity, curiosity, and formal style. Advising corporations, non-profits, or membership associations, we operate with the philosophy that democracy is not self-executing. Someone must make the case. We do.
-        </p>
-
-        <p className="mb-2 tracking-[-.01em] italic">
-          ‘We must first walk in our clients’ shoes so we can accurately represent them at all levels of government.’
-        </p>
-
-        <h1 className="tracking-[-.01em]">A government and public affairs firm.</h1>
+        <p className="mb-4 tracking-[-.01em]">
+          We begin with a simple conviction: lobbying, rightly practiced, is a moral good. Done with integrity, intellectual rigor, and stylistic discipline, it is a civic virtue. </p>
+<p className="mb-4 tracking-[-.01em]"> We advise corporations, nonprofits, and membership associations with a clear philosophy: democracy is not self-executing. Cases must be made. Arguments must be heard. We make them. </p>
+<p className="mb-4 tracking-[-.01em]"> To advocate well, we first walk in our clients’ shoes. Only then can we represent them faithfully and effectively at every level of government. </p>
+<p className="mb-4 tracking-[-.01em]"> We are a government and public-affairs firm — and we take the work seriously. </p>
+        
+        <p className="mb-4 tracking-[-.01em]">For information, write to ink@cravatandcompany.org and CC cravatandco@icloud.com.</p>
       </main>
 
       {/* FOOTER */}
