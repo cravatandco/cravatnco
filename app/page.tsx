@@ -28,11 +28,11 @@ export default function Home() {
       </main>
 
       {/* FOOTER */}
-      <footer className="row-start-3 w-full border-t border-gray-200 px-6 py-10 text-xs text-gray-600">
+      <footer className="row-start-4 w-full border-t border-gray-200 px-6 py-10 text-xs text-gray-600">
         <div className="flex flex-col gap-8 sm:flex-row sm:justify-between sm:items-start">
 
           {/* Section: Firm Info */}
-          <div className="flex flex-col items-start gap-2">
+          <div className="flex flex-col items-start gap-1">
             <a
               className="flex items-center gap-2 p-2 hover:underline hover:underline-offset-4"
               href="https://hls.harvard.edu/bernard-koteen-office-of-public-interest-advising/about-opia/what-is-public-interest-law/public-interest-work-types/lobbying/"
