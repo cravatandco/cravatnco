@@ -39,7 +39,6 @@ For more information see the firm's{' '}
           <div className="flex flex-col items-start gap-1">
             <a
               className="flex items-center gap-2 p-2 hover:underline hover:underline-offset-4"
-              className="flex items-center gap-2 p-2 hover:underline hover:underline-offset-4"
               href="https://cravatandcompany.org"
               target="_blank"
               rel="noopener noreferrer"
