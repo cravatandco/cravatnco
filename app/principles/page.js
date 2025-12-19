@@ -15,7 +15,7 @@ export default function Home() {
           priority
         />
 <h1 className="mb-2 tracking-[-.01em]">Scimus Cui Prodest ~ We Know Who Benefits</h1>
-<p className="mb-4 tracking-[-.01em]"> These were first drafted by John Whitehead of Goldman Sachs in the 1970s. Professional excellence transcends industries. Whitehead wrote these on a legal pad at his New Jersey home. They were written as a way to preserve Goldman's unique culture as it grew larger. We have adapted them for lobbying and government affairs. The fundamentals are unchanged: clients come first, reputation is paramount, excellence is non-negotiable, and integrity is absolute. These principles guide every decision we make and every relationship we build. They are operational, not aspirational.</p>
+<p className="mb-4 tracking-[-.01em]"> These principles were drafted by John Whitehead of Goldman Sachs in the 1970s. at his New Jersey home he drafted them on a legal pad as a way to preserve Goldman's unique culture as it grew. We have adapted them for lobbying and government affairs. Professional excellence transcends all industries. The fundamentals are unchanged: clients come first, and reputation paramount. </p>
 <h1 className="mb-2 tracking-[-.01em] font-bold">Principles</h1>
 <p className="mb-4 tracking-[-.01em]">I. Our clients’ interests always come first. Our experience shows that if we serve our clients well, our own success will follow. </p>
 <p className="mb-4 tracking-[-.01em]">II. Our assets are people, capital, and reputation. If any of these are ever lost, the last is the most difficult to regain.</p>
