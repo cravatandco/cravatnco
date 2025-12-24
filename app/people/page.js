@@ -1,34 +1,40 @@
 import Image from "next/image";
 import Link from 'next/link';
-export default function Home() {
+
+export default function People() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
 
       {/* MAIN SECTION */}
       <main className="flex flex-col gap-4 row-start-2 items-center sm:items-start text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-        <Link href="/"><Image
-          className="dark:invert"
-          src="/navcravatandco.png"
-          alt="Cravat and Company Logo"
-          width={300}
-          height={300}
-          priority
-        />
+        <Link href="/">
+          <Image
+            className="dark:invert"
+            src="/navcravatandco.png"
+            alt="Cravat and Company Logo"
+            width={300}
+            height={300}
+            priority
+          />
         </Link>
-<h1 className="mb-2 tracking-[-.01em]">Scimus Cui Prodest ~ We Know Who Benefits</h1>
-<h1 className="mb-2 tracking-[-.01em] font-bold">The Firm:</h1>
-<p className="mb-4 tracking-[-.01em]"> We begin with a simple conviction: lobbying, rightly practiced, is a moral good. Done with integrity, intellectual rigor, and stylistic discipline, it is a civic virtue. </p>
-<p className="mb-4 tracking-[-.01em]">We advise corporations, nonprofits, and membership associations with a clear philosophy: democracy is not self-executing. Cases must be made. Arguments must be heard. We make them.</p>
-<p className="mb-4 tracking-[-.01em]"> To advocate well, we first walk in our clients’ shoes. Only then can we represent them faithfully and effectively at every level of government. </p>
-<p className="mb-4 tracking-[-.01em]"> We are a government and public-affairs firm — and we take the work seriously.</p>
-
-<p className="mb-4 tracking-[-.01em]">
-For firm information see the{' '}<Link href="/principles" className="text-blue-600 hover:underline"> Principles</Link>{' '} and to learn about our{' '} <Link href="/people" className="text-blue-600 hover:underline">People</Link>{' '}.</p>
-<p className="mb-4 tracking-[-.01em]">To write, use ink(at)cravatandcompany.org or use the Contact "Write to Us" button at the bottom of the page.  </p> 
-<p className="mb-4 tracking-[-.01em]">For a direct firmwide iMessage write to cravatandco(at)icloud.com</p>
+        
+        <h1 className="mb-2 tracking-[-.01em]">Scimus Cui Prodest ~ We Know Who Benefits</h1>
+        <h1 className="mb-2 tracking-[-.01em] font-bold">Our People:</h1>
+        
+       
+        <p className="mb-4 tracking-[-.01em] italic text-gray-600">
+          Profiles of our team members will be added here as the firm grows.
+        </p>
+        <p className="mb-4 tracking-[-.01em]">
+        As written in Principles:   Our assets are people, capital, and reputation.
+        </p>
+        
+        <p className="mb-4 tracking-[-.01em]">
+          We select our people one by one. In a service business, without the best people, we cannot be the best firm.
+        </p>
       </main>
 
-{/* FOOTER */}
+      {/* FOOTER */}
       <footer className="row-start-4 w-full border-t border-gray-200 px-6 py-10 text-xs text-gray-600">
         <div className="flex flex-col gap-8 sm:flex-row sm:justify-between sm:items-start">
 
@@ -50,9 +56,15 @@ For firm information see the{' '}<Link href="/principles" className="text-blue-6
               />
               CRAVAT AND COMPANY LLC
             </a>
-           <Link href="/" className="text-gray-400 hover:underline p-2">Firm</Link>
-           <Link href="/people" className="text-gray-400 hover:underline p-2">People</Link>
-           <Link href="/principles" className="text-gray-400 hover:underline p-2">Principles</Link>
+            <Link href="/" className="text-gray-400 hover:underline p-2">
+              Firm
+            </Link>
+            <Link href="/people" className="text-gray-400 hover:underline p-2">
+              People
+            </Link>
+            <Link href="/principles" className="text-gray-400 hover:underline p-2">
+              Principles
+            </Link>
           </div>
 
           {/* Section: Contact */}

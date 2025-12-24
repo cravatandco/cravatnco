@@ -6,7 +6,7 @@ export default function Home() {
 
       {/* MAIN SECTION */}
       <main className="flex flex-col gap-4 row-start-2 items-center sm:items-start text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-        <Image
+        <Link href="/"><Image
           className="dark:invert"
           src="/navcravatandco.png"
           alt="Cravat and Company Logo"
@@ -14,8 +14,9 @@ export default function Home() {
           height={300}
           priority
         />
+        </Link>
 <h1 className="mb-2 tracking-[-.01em]">Scimus Cui Prodest ~ We Know Who Benefits</h1>
-<p className="mb-4 tracking-[-.01em]"> These principles were drafted by John Whitehead of Goldman Sachs in the 1970s. at his New Jersey home he drafted them on a legal pad as a way to preserve Goldman's unique culture as it grew. We have adapted them for lobbying and government affairs. Professional excellence transcends all industries. The fundamentals are unchanged: clients come first, and reputation paramount. </p>
+<p className="mb-4 tracking-[-.01em]"> These principles were drafted by John Whitehead of Goldman Sachs in the 1970s. Although they read like bromides, it was a way to preserve Goldman's unique culture as it grew. We have adapted them for lobbying and government affairs. Professional excellence transcends industry.</p>
 <h1 className="mb-2 tracking-[-.01em] font-bold">Principles</h1>
 <p className="mb-4 tracking-[-.01em]">I. Our clients’ interests always come first. Our experience shows that if we serve our clients well, our own success will follow. </p>
 <p className="mb-4 tracking-[-.01em]">II. Our assets are people, capital, and reputation. If any of these are ever lost, the last is the most difficult to regain.</p>
@@ -34,7 +35,7 @@ export default function Home() {
 <p className="mb-4 tracking-[-.01em]">XIV. Integrity and honesty are at the heart of our business. We expect our people to maintain high ethical standards in everything they do, both in their work for the firm and in their personal lives.</p>
 
 <h2 className="mb-2 tracking-[-.01em] font-bold">Note:</h2>
-<p className="mb-4 tracking-[-.01em]">“Never content to be a one-trick pony, Whitehead put out another set of guidelines or tactics for IBS business development in 1970—and these were ten commandments" Charles D. Ellis page 186, The Partnership : The Making of Goldman Sachs</p>
+<p className="mb-4 tracking-[-.01em]">"Never content to be a one-trick pony, Whitehead put out another set of guidelines or tactics for IBS business development in 1970—and these were ten commandments." Charles D. Ellis, <em>The Partnership: The Making of Goldman Sachs</em> 186 (2008).</p>
 
 <h1 className="mb-2 tracking-[-.01em] font-bold">Commandments:</h1>
 <p className="mb-4 tracking-[-.01em]">1. Don’t waste your time going after business we don’t really want.</p>
@@ -54,7 +55,7 @@ export default function Home() {
       <footer className="row-start-4 w-full border-t border-gray-200 px-6 py-10 text-xs text-gray-600">
         <div className="flex flex-col gap-8 sm:flex-row sm:justify-between sm:items-start">
 
-          {/* Section: Firm Info */}
+          {/* Section: Pages */}
           <div className="flex flex-col items-start gap-1">
             <a
               className="flex items-center gap-2 p-2 hover:underline hover:underline-offset-4"
@@ -72,7 +73,9 @@ export default function Home() {
               />
               CRAVAT AND COMPANY LLC
             </a>
-            <p className="text-gray-400">&copy; {new Date().getFullYear()} All rights reserved.</p>
+           <Link href="/" className="text-gray-400 hover:underline p-2">Firm</Link>
+           <Link href="/people" className="text-gray-400 hover:underline p-2">People</Link>
+           <Link href="/principles" className="text-gray-400 hover:underline p-2">Principles</Link>
           </div>
 
           {/* Section: Contact */}
@@ -80,7 +83,7 @@ export default function Home() {
             <span className="font-semibold">Contact</span>
             <a
               className="flex items-center gap-2 p-2 hover:underline hover:underline-offset-4"
-              href="mailto:cravatandco@icloud.com"
+              href="mailto:ink@cravatandcompany.org"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Email Cravat and Company"
