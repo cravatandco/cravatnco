@@ -35,7 +35,7 @@ export default function Home() {
 <p className="mb-4 tracking-[-.01em]">XIV. Integrity and honesty are at the heart of our business. We expect our people to maintain high ethical standards in everything they do, both in their work for the firm and in their personal lives.</p>
 
 <h2 className="mb-2 tracking-[-.01em] font-bold">Note:</h2>
-<p className="mb-4 tracking-[-.01em]">"Never content to be a one-trick pony, Whitehead put out another set of guidelines or tactics for IBS business development in 1970—and these were ten commandments." Charles D. Ellis, <em>The Partnership: The Making of Goldman Sachs</em> 186 (2008).</p>
+<p className="mb-4 tracking-[-.01em]">"Never content to be a one-trick pony, Whitehead put out another set of guidelines or tactics for IBS business development in 1970—and these were ten commandments." Charles D. Ellis, <em>The Partnership The Making of Goldman Sachs</em> 188 (2008).</p>
 
 <h1 className="mb-2 tracking-[-.01em] font-bold">Commandments:</h1>
 <p className="mb-4 tracking-[-.01em]">1. Don’t waste your time going after business we don’t really want.</p>
