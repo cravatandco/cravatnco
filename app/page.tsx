@@ -24,7 +24,7 @@ export default function Home() {
 
 <p className="mb-4 tracking-[-.01em]">For firm information, read our <Link href="/principles" className="text-blue-600 hover:underline">Principles</Link> and to see our best asset: see <Link href="/people" className="text-blue-600 hover:underline">People</Link>.</p>
 
-<p className="mb-4 tracking-[-.01em]">To write, use ink@cravatandcompany.org or use the "Write to Us" button below. For firmwide iMessage: cravatandco@icloud.com</p>
+<p className="mb-4 tracking-[-.01em]">To write, use ink@cravatandcompany.org or click the "Write to Us" button below. For firmwide iMessage: cravatandco@icloud.com</p>
       </main>
 
 {/* FOOTER */}
