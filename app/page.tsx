@@ -17,15 +17,14 @@ export default function Home() {
         </Link>
 <h1 className="mb-2 tracking-[-.01em]">Scimus Cui Prodest ~ We Know Who Benefits</h1>
 <h1 className="mb-2 tracking-[-.01em] font-bold">The Firm:</h1>
-<p className="mb-4 tracking-[-.01em]"> We begin with a simple conviction: lobbying, rightly practiced, is a moral good. Done with integrity, intellectual rigor, and stylistic discipline, it is a civic virtue. </p>
-<p className="mb-4 tracking-[-.01em]">We advise corporations, nonprofits, and membership associations with a clear philosophy: democracy is not self-executing. Cases must be made. Arguments must be heard. We make them.</p>
-<p className="mb-4 tracking-[-.01em]"> To advocate well, we first walk in our clients’ shoes. Only then can we represent them faithfully and effectively at every level of government. </p>
-<p className="mb-4 tracking-[-.01em]"> We are a government and public-affairs firm — and we take the work seriously.</p>
 
-<p className="mb-4 tracking-[-.01em]">
-For firm information see the{' '}<Link href="/principles" className="text-blue-600 hover:underline"> Principles</Link>{' '} and to learn about our{' '} <Link href="/people" className="text-blue-600 hover:underline">People</Link>{' '}.</p>
-<p className="mb-4 tracking-[-.01em]">To write, use ink(at)cravatandcompany.org or use the Contact "Write to Us" button at the bottom of the page.  </p> 
-<p className="mb-4 tracking-[-.01em]">For a direct firmwide iMessage write to cravatandco(at)icloud.com</p>
+<p className="mb-4 tracking-[-.01em]">Lobbying is a partnership. Cases must be made. Arguments must be heard. We make them.</p>
+        
+<p className="mb-4 tracking-[-.01em]">We are a lobbying firm. And we take the work seriously. <Link href="/principles" >14 Principles. 10 Commandments</Link>.</p>
+
+<p className="mb-4 tracking-[-.01em]">For firm information, read our <Link href="/principles" className="text-blue-600 hover:underline">Principles</Link> and to see our best asset: see <Link href="/people" className="text-blue-600 hover:underline">People</Link>.</p>
+
+<p className="mb-4 tracking-[-.01em]">To write, use ink@cravatandcompany.org or use the "Write to Us" button below. For firmwide iMessage: cravatandco@icloud.com</p>
       </main>
 
 {/* FOOTER */}
@@ -36,8 +35,7 @@ For firm information see the{' '}<Link href="/principles" className="text-blue-6
           <div className="flex flex-col items-start gap-1">
             <a
               className="flex items-center gap-2 p-2 hover:underline hover:underline-offset-4"
-              href="https://cravatandcompany.org"
-              target="_blank"
+              href="/"
               rel="noopener noreferrer"
               aria-label="Firm Masthead"
             >
@@ -50,10 +48,11 @@ For firm information see the{' '}<Link href="/principles" className="text-blue-6
               />
               CRAVAT AND COMPANY LLC
             </a>
-           <Link href="/" className="text-gray-400 hover:underline p-2">Firm</Link>
-           <Link href="/people" className="text-gray-400 hover:underline p-2">People</Link>
-           <Link href="/principles" className="text-gray-400 hover:underline p-2">Principles</Link>
-          </div>
+            <Link href="/" className="text-gray-400 hover:underline p-2">Firm</Link>
+            <Link href="/people" className="text-gray-400 hover:underline p-2">People</Link>
+            <Link href="/principles" className="text-gray-400 hover:underline p-2">Principles</Link>
+            <Link href="/style" className="text-gray-400 hover:underline p-2">Style</Link>
+                      </div>
 
           {/* Section: Contact */}
           <div className="flex flex-col items-start gap-2">

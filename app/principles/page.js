@@ -16,10 +16,10 @@ export default function Home() {
         />
         </Link>
 <h1 className="mb-2 tracking-[-.01em]">Scimus Cui Prodest ~ We Know Who Benefits</h1>
-<p className="mb-4 tracking-[-.01em]"> These principles were drafted by John Whitehead of Goldman Sachs in the 1970s. Although they read like bromides, it was a way to preserve Goldman's unique culture as it grew. We have adapted them for lobbying and government affairs. Professional excellence transcends industry.</p>
-<h1 className="mb-2 tracking-[-.01em] font-bold">Principles</h1>
+<p className="mb-4 tracking-[-.01em]"> These principles were drafted by John Whitehead of Goldman Sachs in the 1970s to preserve Goldman's unique culture as it grew. We have adapted them for lobbying and government affairs. Professional excellence transcends industry.</p>
+<h1 className="mb-2 tracking-[-.01em] font-bold">PRINCIPLES</h1>
 <p className="mb-4 tracking-[-.01em]">I. Our clients’ interests always come first. Our experience shows that if we serve our clients well, our own success will follow. </p>
-<p className="mb-4 tracking-[-.01em]">II. Our assets are people, capital, and reputation. If any of these are ever lost, the last is the most difficult to regain.</p>
+<p className="mb-4 tracking-[-.01em]">II. Our assets are <Link href="/people" className="text-blue-600 hover:underline">People</Link>, capital, and reputation. If any of these are ever lost, the last is the most difficult to regain.</p>
 <p className="mb-4 tracking-[-.01em]">III. We take great pride in the professional quality of our work. We have an uncompromising determination to achieve excellence in everything we undertake. Though we may be involved in a wide variety and heavy volume of activity, we would, if it came to a choice, rather be best than biggest.</p>
 <p className="mb-4 tracking-[-.01em]">IV. We stress creativity and imagination in everything we do. While recognizing that the old way may still be the best way, we constantly strive to find a better solution to clients’ problems. </p>
 <p className="mb-4 tracking-[-.01em]">V. We make an unusual effort to identify and recruit the very best person for every job. We select our people one by one. In a service business, we know that without the best people, we cannot be the best firm.</p>
@@ -37,7 +37,7 @@ export default function Home() {
 <h2 className="mb-2 tracking-[-.01em] font-bold">Note:</h2>
 <p className="mb-4 tracking-[-.01em]">"Never content to be a one-trick pony, Whitehead put out another set of guidelines or tactics for IBS business development in 1970—and these were ten commandments." Charles D. Ellis, <em>The Partnership The Making of Goldman Sachs</em> 188 (2008).</p>
 
-<h1 className="mb-2 tracking-[-.01em] font-bold">Commandments:</h1>
+<h1 className="mb-2 tracking-[-.01em] font-bold">COMMANDMENTS:</h1>
 <p className="mb-4 tracking-[-.01em]">1. Don’t waste your time going after business we don’t really want.</p>
 <p className="mb-4 tracking-[-.01em]">2. The boss usually decides—not the assistant treasurer. Do you know the boss?</p>
 <p className="mb-4 tracking-[-.01em]">3. It’s just as easy to get a first-rate piece of business as a second-rate one.</p>
@@ -59,8 +59,7 @@ export default function Home() {
           <div className="flex flex-col items-start gap-1">
             <a
               className="flex items-center gap-2 p-2 hover:underline hover:underline-offset-4"
-              href="https://cravatandcompany.org"
-              target="_blank"
+              href="/"
               rel="noopener noreferrer"
               aria-label="Firm Masthead"
             >
@@ -76,6 +75,7 @@ export default function Home() {
            <Link href="/" className="text-gray-400 hover:underline p-2">Firm</Link>
            <Link href="/people" className="text-gray-400 hover:underline p-2">People</Link>
            <Link href="/principles" className="text-gray-400 hover:underline p-2">Principles</Link>
+           <Link href="/style" className="text-gray-400 hover:underline p-2">Style</Link>
           </div>
 
           {/* Section: Contact */}
