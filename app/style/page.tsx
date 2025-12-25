@@ -29,12 +29,12 @@ export default function Style() {
         <p className="mb-4 tracking-[-.01em]">Matthew Butterick, <em>Typography for Lawyers</em> (2d ed. 2018).</p>
         
         <h2 className="mb-2 tracking-[-.01em] font-bold">House Style:</h2>
-        <p className="mb-4 tracking-[-.01em]">Antonin Scalia & Bryan A. Garner, <em>Making Your Case: The Art of Persuading Judges</em> (2008).</p>
+        <p className="mb-4 tracking-[-.01em]">Antonin Scalia & Brian A. Garner, <em>Making Your Case: The Art of Persuading Judges</em> (2008).</p>
         
         <h2 className="mb-2 tracking-[-.01em] font-bold">Writing:</h2>
         <p className="mb-4 tracking-[-.01em]"><em>The Bluebook: A Uniform System of Citation</em> (Columbia Law Review Ass'n et al. eds., 22d ed. 2024).</p>
-        <p className="mb-4 tracking-[-.01em]">Bryan A. Garner, <em>The Winning Brief: 100 Tips for Persuasive Briefing in Trial and Appellate Courts</em> (3d ed. 2014).</p>
-        <p className="mb-4 tracking-[-.01em]">Bryan A. Garner, <em>HBR Guide to Better Business Writing</em> (Harvard Business Review Press 2012).</p>
+        <p className="mb-4 tracking-[-.01em]">Brian A. Garner, <em>The Winning Brief: 100 Tips for Persuasive Briefing in Trial and Appellate Courts</em> (3d ed. 2014).</p>
+        <p className="mb-4 tracking-[-.01em]">Brian A. Garner, <em>HBR Guide to Better Business Writing</em> (Harvard Business Review Press 2012).</p>
         
         <h2 className="mb-2 tracking-[-.01em] font-bold">The Profession:</h2>
         <p className="mb-4 tracking-[-.01em]">Lately Thomas, <em>Sam Ward: "King of the Lobby"</em> (Houghton Mifflin Co. 1965).</p>
