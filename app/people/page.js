@@ -21,16 +21,15 @@ export default function People() {
         <h1 className="mb-2 tracking-[-.01em]">Scimus Cui Prodest ~ We Know Who Benefits</h1>
         <h1 className="mb-2 tracking-[-.01em] font-bold">Our People:</h1>
         
-       
-        <p className="mb-4 tracking-[-.01em] italic text-gray-600">
-          Profiles of our team members will be added here as the firm grows.
-        </p>
         <p className="mb-4 tracking-[-.01em] italic text-600">
         As written in our second<Link href="/principles" className="text-blue-600 hover:underline"> Principle</Link>: Our assets are people, capital, and reputation.
         </p>
         
         <p className="mb-4 tracking-[-.01em]">
           We select our people one by one. In a service business, without the best people, we cannot be the best firm.
+        </p>
+         <p className="mb-4 tracking-[-.01em] italic text-gray-600">
+          Profiles of our team members will be added here as the firm grows.
         </p>
       </main>
 
