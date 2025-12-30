@@ -1,4 +1,4 @@
-This is the firm's homepage. The code is open so those can create a simialr site at low cost. 
+This is the firm's homepage. To test it on your own computer run the following commands in your Terminal.app or Windows Powershell. 
 ## Deploy via Terminal/Windows Powershell
 
 First, run the development server:
