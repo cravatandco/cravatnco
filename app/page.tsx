@@ -52,6 +52,7 @@ export default function Home() {
             <Link href="/people" className="text-gray-400 hover:underline p-2">People</Link>
             <Link href="/principles" className="text-gray-400 hover:underline p-2">Principles</Link>
             <Link href="/style" className="text-gray-400 hover:underline p-2">Style</Link>
+            <Link href="/work" className="text-gray-400 hover:underline p-2">Work</Link>
                       </div>
 
           {/* Section: Contact */}
